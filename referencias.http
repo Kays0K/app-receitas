@@ -1,0 +1,22 @@
+### Teste de Health Check
+GET http://localhost:3333/
+
+### Cadastrar Personagem 1
+POST http://localhost:3333/register
+Content-Type: application/json
+
+{
+    "nome": "Arnaldo Breaker",
+    "classe": "Anão",
+    "nivel": "10"
+}
+
+### Cadastrar Personagem 2
+POST http://localhost:3333/register
+Content-Type: application/json
+
+{
+    "nome": "Anão Bombado",
+    "classe": "Goblin",
+    "nivel": "5"
+}
